@@ -19,6 +19,3 @@ for index, addressTuple in enumerate(address_liste):
     for headerIndex, header in enumerate(headers):
         print(f"{header}: {addressTuple[headerIndex]}")
     print('\n')
-
-    headers = address_liste[0]
-addressIndex = 1
